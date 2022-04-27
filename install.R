@@ -1,0 +1,7 @@
+install.packages("remotes")
+install.packages(c('shiny', 'rmarkdown','ggplot2','XLConnect','ggrepel','gridExtra','imager','reshape2','BiocManager'))
+BiocManager::install('DESeq2')
+install.packages('devtools')
+devtools::install_github('CosteaPaul/r-cytoscape.js')
+install.packages(c('shinyBS','VennDiagram','shinyWidgets'))
+remotes::install_github('Marlin-Na/trewjb')
