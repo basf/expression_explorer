@@ -3,7 +3,7 @@
 ## Demo
 
 You can fire-up a demo of this application on binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/basf/expression_explorer/binder?urlpath=shiny/app/)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/basf/expression_explorer/master?urlpath=shiny/app/)
 
 # Adding a dataset
 
