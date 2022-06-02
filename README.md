@@ -9,7 +9,10 @@ You can fire-up a demo of this application on binder:
 
 Requires: docker-compose
 
-Run: docker-compose up --build -d
+```
+docker-compose up --build -d
+```
+
 The expression explorer will then be available at:
 http://localhost:8005/expression_explorer/
 
