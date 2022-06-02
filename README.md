@@ -5,6 +5,14 @@
 You can fire-up a demo of this application on binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/basf/expression_explorer/master?urlpath=shiny/app/)
 
+## Deploy with docker (local or server)
+
+Requires: docker-compose
+
+Run: docker-compose up --build -d
+The expression explorer will then be available at:
+http://localhost:8005/expression_explorer/
+
 # Adding a dataset
 
 Each dataset resides in its dedicated folder, under "data". The name of the folder will be displayed in the starting table, together with additional information about the dataset. Adding actual data is as easy as creating one of the standard and simple tab separated files that EE expects. Some of these are required for the processing of the dataset, others are optional.
@@ -32,4 +40,4 @@ Sample metadata is very important for making sense of any dataset. EE requires f
 | sample_name | Sample | Timepoint | Replicate |
 | ------ | ------ | ------ | ------ |
 
-The sample_name must match the sample names from the "counts.tab" file. 
+The sample_name must match the sample names from the "counts.tab" file.

@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  app:
+    build:
+      context: .
+
+    restart: always
+    ports:
+      - 8005:3838
+
+    ##### This mounting is currently rather pointless
+    volumes:
+      - ./app/data:/data
